@@ -1,6 +1,19 @@
 
+* ) Official React-Redux toolkit docs: https://redux.js.org/tutorials/quick-start
+tutorial: https://www.youtube.com/watch?v=auyH4IrbnPE
+
 1) create template: 
     npx create-react-app@latest react-redux-toolkit --template redux
 
-2)
+- - - - - - - - - - - - - 
+
+FILE SETUP / TEMPLATE GENERATED
+2)  - src/app/store,  src/features
+
+In SRC, there is a folder called "Features" where each component and its features live(componentSlice, Reducers, etc...) 
+
+- - - - - - - - - - - - - 
+
+USING Rsuite for UI
+3) npm i rsuite --save
 
