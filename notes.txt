@@ -1,0 +1,6 @@
+
+1) create template: 
+    npx create-react-app@latest react-redux-toolkit --template redux
+
+2)
+
