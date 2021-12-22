@@ -14,6 +14,16 @@ In SRC, there is a folder called "Features" where each component and its feature
 
 - - - - - - - - - - - - - 
 
-USING Rsuite for UI
-3) npm i rsuite --save
+REVIEW: 
+         Redux has gone through some evolutions. There is no need for Action-Types
+         or switch/case statements for conditional actions. We can do most of this 
+         through the use of Hooks and encapsulate the reducers of each component
+         (within the features directory) to group like actions and import them into
+         the store. The hooks are then called through the out app using dispatch to
+         modify the state (useDispatch) as well as the get values of the state to be
+         rendered (useSelector).
 
+    - parts of Redux-ToolKit: 
+        1) store.js             (in src/app/store.js)
+        2) featureSlice.js      (in src/features/featureName/featureSlice.js)
+        3) 
